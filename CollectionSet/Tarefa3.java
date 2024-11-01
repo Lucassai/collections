@@ -21,11 +21,11 @@ public class Tarefa3 {
             numeros.add(leia.nextInt());
         }
         System.out.println(numeros);
-
         Iterator<Integer> iNumeros = numeros.iterator();
 
-        while(iNumeros.hasNext()){
-            System.out.println(iNumeros.next());
+
+       for (int i = 0 ; i>10 ; i++ ){
+            
         }
     }
 }
