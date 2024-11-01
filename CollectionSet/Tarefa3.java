@@ -12,8 +12,8 @@ public class Tarefa3 {
     public static void main(String[] args) {
 
         Scanner leia = new Scanner(System.in);
-
         Set<Integer> numeros = new HashSet<>();
+
         //Entrada de dados do usuário:
         System.out.println("Digite 10 números não repetidos");
         while(numeros.size()<10){
@@ -25,7 +25,7 @@ public class Tarefa3 {
 
 
        for (int i = 0 ; i>10 ; i++ ){
-            
+
         }
     }
 }

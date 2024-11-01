@@ -29,11 +29,11 @@ public class Tarefa2 {
         System.out.println("Digite um número para ser encontrado na lista: ");
         procurarNumero = leia.nextInt();
         if (numeros.contains(procurarNumero)){
-            System.out.println("existe");
+            System.out.println("O número foi encontrado!");
             System.out.println("O número "+procurarNumero+" está localizado na posição "+ numeros.indexOf(procurarNumero)+"!");
         }
         else {
-            System.out.println("não existe");
+            System.out.println("O número não foi encontrado!");
         }
     }
 }
